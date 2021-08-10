@@ -18,9 +18,9 @@
   "scripts": {
     "build": "yarn build:clean && yarn build:lib",
     "build:clean": "yarn rimraf lib",
-    "build:lib": "yarn browserify src/index.ts -p [ tsify --noImplicitAny ] -o lib/index.js",
+    "build:lib": "yarn browserify src/index.ts -p [ tsify --noImplicitAny ] -p tinyify -o lib/index.js",
     "build:watch": "concurrently \"yarn build:watch:lib\"",
-    "build:watch:lib": "yarn watchify src/index.ts -p [ tsify --noImplicitAny ] -o lib/index.js",
+    "build:watch:lib": "yarn watchify src/index.ts -p [ tsify --noImplicitAny ] -p tinyify -o lib/index.js",
     "prepare": "yarn build"
   },
   "dependencies": {
