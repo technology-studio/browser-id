@@ -18,13 +18,16 @@
   "scripts": {
     "build": "yarn build:clean && yarn build:lib",
     "build:clean": "yarn rimraf lib",
-    "build:lib": "yarn tsc",
+    "build:lib": "yarn browserify src/index.ts -p [ tsify --noImplicitAny ] -o lib/index.js",
     "build:watch": "concurrently \"yarn build:watch:lib\"",
-    "build:watch:lib": "yarn tsc --watch",
+    "build:watch:lib": "yarn watchify src/index.ts -p [ tsify --noImplicitAny ] -o lib/index.js",
     "prepare": "yarn build"
   },
   "dependencies": {
+    "uuid": "^8.3.2"
   },
-  "peerDependencies": {
+  "peerDependencies": {},
+  "devDependencies": {
+    "@types/uuid": "^8.3.1"
   }
 }
