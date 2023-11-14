@@ -9,7 +9,7 @@ declare global {
 const TXO_BROWSER_ID = 'txo-browser-id'
 
 const existingId = window.localStorage.getItem(TXO_BROWSER_ID)
-if (!existingId) {
+if (existingId == null) {
   const id: string = v4()
   window.localStorage.setItem(TXO_BROWSER_ID, id)
   window.TXO_BROWSER_ID = id
