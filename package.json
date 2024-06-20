@@ -46,7 +46,7 @@
     "@txo/semantic-release": "^2.0.8",
     "@txo/tsconfig": "^1.1.1",
     "@types/jest": "^29.5.12",
-    "@types/uuid": "^9.0.8",
+    "@types/uuid": "^10.0.0",
     "concurrently": "^8.2.2",
     "eslint-config-txo-typescript": "^4.0.62",
     "husky": "^9.0.11",
