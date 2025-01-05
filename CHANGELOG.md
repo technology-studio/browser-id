@@ -1,3 +1,16 @@
+## [1.0.4](https://github.com/technology-studio/browser-id/compare/v1.0.3...v1.0.4) (2025-01-05)
+
+
+### CI
+
+* add synchronize to PR workflow ([#188](https://github.com/technology-studio/browser-id/issues/188)) ([c3a139d](https://github.com/technology-studio/browser-id/commit/c3a139dd4309ab049cc0630e293914bbfbaeb619))
+* update pr and release workflows ([#185](https://github.com/technology-studio/browser-id/issues/185)) ([ac3112c](https://github.com/technology-studio/browser-id/commit/ac3112cb777e80ffce59d8d56ccb2da9f08b9eb4))
+
+
+### Bug fixes
+
+* **deps:** update dependency uuid to ^11.0.4 ([#212](https://github.com/technology-studio/browser-id/issues/212)) ([24c92eb](https://github.com/technology-studio/browser-id/commit/24c92eb375281cb5233f37dd0bd14eb7dc1865a0))
+
 ## [1.0.3](https://github.com/technology-studio/browser-id/compare/v1.0.2...v1.0.3) (2024-11-11)
 
 
