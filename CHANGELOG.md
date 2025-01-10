@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/technology-studio/browser-id/compare/v1.0.4...v1.0.5) (2025-01-10)
+
+
+### Bug fixes
+
+* **deps:** update dependency uuid to ^11.0.5 ([#216](https://github.com/technology-studio/browser-id/issues/216)) ([03bb38d](https://github.com/technology-studio/browser-id/commit/03bb38dc2c23d8238a79873cbbad1572ee5c6e67))
+
 ## [1.0.4](https://github.com/technology-studio/browser-id/compare/v1.0.3...v1.0.4) (2025-01-05)
 
 
